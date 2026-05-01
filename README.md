@@ -22,3 +22,17 @@ Last updated on 2026-05-01T05:30:39.000Z
 | SA-2026-04-30-006.md | ![C](https://shieldcn.dev/badge/C-2-red) ![H](https://shieldcn.dev/badge/H-4-orange) ![M](https://shieldcn.dev/badge/M-6-yellow) ![L](https://shieldcn.dev/badge/L-5-green) ![I](https://shieldcn.dev/badge/I-1-blue)    | 18    |
 
 ---
+
+## Project: [cms](https://gitlab.com/randop/cms)
+Last updated on 2026-05-01T06:01:57.000Z
+
+| Total Severity |
+| -------------- |
+| ![Critical: 3](https://shieldcn.dev/badge/Critical-3-red) ![High: 4](https://shieldcn.dev/badge/High-4-orange) ![Medium: 12](https://shieldcn.dev/badge/Medium-12-yellow) ![Low: 8](https://shieldcn.dev/badge/Low-8-green) ![Informational: 0](https://shieldcn.dev/badge/Informational-0-blue) ![Total: 27](https://shieldcn.dev/badge/Total-27-lightgrey) |
+
+### Severity Breakdown
+
+| Report               | Severity                                                                                                                                                                                                                          | Total |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
+| SA-2026-05-01-001.md | ![C](https://shieldcn.dev/badge/C-3-red) ![H](https://shieldcn.dev/badge/H-4-orange) ![M](https://shieldcn.dev/badge/M-5-yellow) ![L](https://shieldcn.dev/badge/L-7-green) ![I](https://shieldcn.dev/badge/I-0-blue) | 19    |
+| SA-2026-05-01-002.md | ![C](https://shieldcn.dev/badge/C-0-red) ![H](https://shieldcn.dev/badge/H-0-orange) ![M](https://shieldcn.dev/badge/M-7-yellow) ![L](https://shieldcn.dev/badge/L-1-green) ![I](https://shieldcn.dev/badge/I-0-blue) | 8     |
