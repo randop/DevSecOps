@@ -16,7 +16,7 @@ Last updated on 2026-05-01T05:30:39.000Z
 
 ### Severity Breakdown
 
-| File                 | Severity                                                                                                                                                                                                                 | Total |
+| Report               | Severity                                                                                                                                                                                                                 | Total |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----- |
 | SA-2026-04-30-001.md | ![C](https://shieldcn.dev/badge/C-8-red) ![H](https://shieldcn.dev/badge/H-13-orange) ![M](https://shieldcn.dev/badge/M-14-yellow) ![L](https://shieldcn.dev/badge/L-24-green) ![I](https://shieldcn.dev/badge/I-3-blue) | 62    |
 | SA-2026-04-30-002.md | ![C](https://shieldcn.dev/badge/C-3-red) ![H](https://shieldcn.dev/badge/H-17-orange) ![M](https://shieldcn.dev/badge/M-1-yellow) ![L](https://shieldcn.dev/badge/L-5-green) ![I](https://shieldcn.dev/badge/I-0-blue)   | 26    |
