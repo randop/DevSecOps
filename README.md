@@ -5,12 +5,7 @@ Last updated on 2026-05-01T05:30:39.000Z
 
 | Total Severity |
 | ------------------------------------------------------------------ |
-| ![Critical: 20](https://shieldcn.dev/badge/Critical-20-red)            |
-| ![High: 44](https://shieldcn.dev/badge/High-44-orange)                 |
-| ![Medium: 29](https://shieldcn.dev/badge/Medium-29-yellow)             |
-| ![Low: 60](https://shieldcn.dev/badge/Low-60-green)                    |
-| ![Informational: 14](https://shieldcn.dev/badge/Informational-14-blue) |
-| ![Total: 167](https://shieldcn.dev/badge/Total-167-lightgrey)           |
+| ![Critical: 20](https://shieldcn.dev/badge/Critical-20-red) ![High: 44](https://shieldcn.dev/badge/High-44-orange) ![Medium: 29](https://shieldcn.dev/badge/Medium-29-yellow) ![Low: 60](https://shieldcn.dev/badge/Low-60-green) ![Informational: 14](https://shieldcn.dev/badge/Informational-14-blue) ![Total: 167](https://shieldcn.dev/badge/Total-167-lightgrey)           |
 
 ### Severity Breakdown
 
