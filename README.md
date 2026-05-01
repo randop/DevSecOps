@@ -1,4 +1,7 @@
 # DevSecOps
+> “Go hard and go smart, or go home”
+>
+> — Every C and C++ developers
 
 ## Project: [mail](https://gitlab.com/randop/mail)
 Last updated on 2026-05-01T05:30:39.000Z
