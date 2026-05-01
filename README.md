@@ -3,9 +3,7 @@
 ## Project: [mail](https://gitlab.com/randop/mail)
 Last updated on 2026-05-01T05:30:39.000Z
 
-### Total Severity
-
-| Severity |
+| Total Severity |
 | ------------------------------------------------------------------ |
 | ![Critical: 20](https://shieldcn.dev/badge/Critical-20-red)            |
 | ![High: 44](https://shieldcn.dev/badge/High-44-orange)                 |
