@@ -1,0 +1,112 @@
+# Builder stage: compile nginx static from source
+FROM debian:trixie-slim AS builder
+
+# module version definitions
+ENV MODSEC_TAG=v3.0.15
+ENV NGINX_VERSION=1.30.0
+ENV MODSEC_NGINX_TAG=master
+ENV NGINX_GEOIP_TAG=master
+
+# Install build dependencies
+RUN echo "Installing dependencies..." && apt update && apt install -y --no-install-recommends \
+    build-essential \
+    libpcre2-dev \
+    zlib1g-dev \
+    libssl-dev \
+    liblmdb-dev \
+    libmaxminddb-dev \
+    libyajl-dev \
+    ca-certificates \
+    wget \
+    pkg-config \
+    autoconf \
+    automake \
+    libtool \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN echo "Downloading ModSecurity..." && git clone -b ${MODSEC_TAG} https://github.com/owasp-modsecurity/ModSecurity.git /modsecurity-${MODSEC_TAG}
+WORKDIR /modsecurity-${MODSEC_TAG}
+RUN echo "Downloading ModSecurity submodules..." && git submodule update --init --recursive
+RUN echo "Building ModSecurity..." && ./build.sh && \
+  ./configure \
+  --with-maxmind=1 \
+  --enable-shared \
+  --disable-static \
+  --with-lmdb && \
+  make -j$(nproc) && \
+  make install
+
+RUN echo "Downloading ModSecurity nginx connector..." && \
+  git clone -b ${MODSEC_NGINX_TAG} \
+  --depth 1 https://github.com/owasp-modsecurity/ModSecurity-nginx /modsecurity-nginx
+
+RUN echo "Download nginx geoip2 module..." && \
+  git clone -b ${NGINX_GEOIP_TAG} \
+  --depth 1 https://github.com/leev/ngx_http_geoip2_module /ngx_http_geoip2_module
+
+WORKDIR /
+RUN echo "Downloading nginx..." && wget -qO- https://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz | tar xz
+
+RUN echo "Building nginx modules..." && \
+  mkdir -p /usr/lib/nginx/modules && \
+  (cd "/nginx-${NGINX_VERSION}" && \
+  ./configure \
+  --with-compat \
+  --add-dynamic-module=/modsecurity-nginx \
+  --add-dynamic-module=/ngx_http_geoip2_module && \
+  make modules)
+
+# Build nginx with static linking
+WORKDIR /nginx-${NGINX_VERSION}
+RUN echo "Building nginx..." && \
+    chmod +x ./configure && ./configure \
+    --prefix=/etc/nginx \
+    --sbin-path=/usr/sbin/nginx \
+    --conf-path=/etc/nginx/nginx.conf \
+    --pid-path=/var/run/nginx.pid \
+    --lock-path=/var/run/nginx.lock \
+    --error-log-path=/var/log/nginx/error.log \
+    --http-log-path=/var/log/nginx/access.log \
+    --with-stream \
+    --with-http_gzip_static_module \
+    --with-http_stub_status_module \
+    --with-http_realip_module \
+    --with-cc-opt="-static -static-libgcc -static-libstdc++" \
+    --with-ld-opt="-static -static-libgcc -static-libstdc++" && \
+    make -j$(nproc) && \
+    make install DESTDIR=/tmp/nginx
+
+# Create required files and directories
+RUN mkdir -p /tmp/nginx/var/log/nginx /tmp/nginx/var/run/nginx /tmp/etc/nginx /tmp/var/www/html
+RUN touch /tmp/etc/nginx/client_body_temp
+RUN touch /tmp/nginx/var/run/nginx.pid
+RUN touch /tmp/nginx/var/run/nginx.lock
+RUN echo "<p>Hello</p>" > /tmp/var/www/html/index.html
+
+# Runtime stage: use distroless static
+FROM gcr.io/distroless/static-debian13:nonroot
+
+# Copy nginx binary and configuration from builder
+COPY --from=builder --chown=nonroot:nonroot /tmp/etc/nginx /etc/nginx
+COPY --from=builder /tmp/nginx/usr/sbin/nginx /usr/sbin/nginx
+COPY --from=builder /tmp/nginx/etc/nginx/nginx.conf /etc/nginx/nginx.conf
+COPY --from=builder /tmp/nginx/etc/nginx/koi-utf /etc/nginx/koi-utf
+COPY --from=builder /tmp/nginx/etc/nginx/koi-win /etc/nginx/koi-win
+COPY --from=builder /tmp/nginx/etc/nginx/mime.types /etc/nginx/mime.types
+COPY --from=builder /tmp/nginx/etc/nginx/scgi_params /etc/nginx/scgi_params
+COPY --from=builder /tmp/nginx/etc/nginx/uwsgi_params /etc/nginx/uwsgi_params
+COPY --from=builder /tmp/nginx/etc/nginx/win-utf /etc/nginx/win-utf
+COPY --from=builder --chown=nonroot:nonroot /tmp/nginx/var/log/nginx /var/log/nginx
+COPY --from=builder --chown=nonroot:nonroot /tmp/nginx/var/run/nginx /var/run/nginx
+COPY --from=builder --chown=nonroot:nonroot /tmp/nginx/var/run/nginx.pid /var/run/nginx.pid
+COPY --from=builder --chown=nonroot:nonroot /tmp/nginx/var/run/nginx.lock /var/run/nginx.lock
+COPY --from=builder --chown=nonroot:nonroot /tmp/var/www/html /etc/nginx/html
+
+# Expose HTTP and HTTPS ports
+EXPOSE 80 443
+
+USER nonroot:nonroot
+
+# Start nginx
+CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
