@@ -147,3 +147,90 @@ OrgNOCRef:    https://rdap.arin.net/registry/entity/AHMED50-ARIN
 # Copyright 1997-2026, American Registry for Internet Numbers, Ltd.
 #
 
+Whois IP 182.252.67.60
+Updated 1 second ago
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to '182.252.67.0 - 182.252.67.255'
+
+% Abuse contact for '182.252.67.0 - 182.252.67.255' is 'email@agni.com'
+
+inetnum:        182.252.67.0 - 182.252.67.255
+netname:        AGNISYS
+descr:          WiMAX Customer Allocation for Dhaka Zone
+country:        BD
+admin-c:        MMR1-AP
+tech-c:         MMR1-AP
+abuse-c:        AA1896-AP
+status:         ALLOCATED NON-PORTABLE
+notify:         email@agni.com
+notify:         email@agni.com
+mnt-by:         MAINT-BD-AGNI
+mnt-lower:      MAINT-BD-AGNI
+mnt-routes:     MAINT-BD-AGNI
+mnt-irt:        IRT-AGNI-BD
+last-modified:  2021-01-07T04:52:41Z
+source:         APNIC
+
+irt:            IRT-AGNI-BD
+address:        Agni Systems Limited
+address:        Navana Tower, 11th Floor, Suite-A
+address:        45 Gulshan Avenue, Gulshan-1, Dhaka-1212.
+e-mail:         email@agni.com
+abuse-mailbox:  email@agni.com
+admin-c:        ASA6-AP
+tech-c:         ASA6-AP
+auth:           # Filtered
+remarks:        email@agni.com
+remarks:        email@agni.com
+remarks:        email@agni.com is invalid
+notify:         email@agni.com
+mnt-by:         MAINT-BD-AGNI
+last-modified:  2026-02-25T13:10:01Z
+source:         APNIC
+
+role:           ABUSE AGNIBD
+country:        ZZ
+address:        Agni Systems Limited
+address:        Navana Tower, 11th Floor, Suite-A
+address:        45 Gulshan Avenue, Gulshan-1, Dhaka-1212.
+phone:          +000000000
+e-mail:         email@agni.com
+admin-c:        ASA6-AP
+tech-c:         ASA6-AP
+nic-hdl:        AA1896-AP
+remarks:        Generated from irt object IRT-AGNI-BD
+remarks:        email@agni.com is invalid
+abuse-mailbox:  email@agni.com
+mnt-by:         APNIC-ABUSE
+last-modified:  2026-02-25T13:10:30Z
+source:         APNIC
+
+person:         Md Mizanur Rahman
+address:        Agni Systems Ltd.
+address:        Navana Tower, 11th Floor, Suite-A
+address:        45 Gulshan Avenue, Gulshan-1, Dhaka-1212.
+country:        BD
+phone:          +88-02-8812379
+e-mail:         email@agni.com
+notify:         email@agni.com
+nic-hdl:        MMR1-AP
+mnt-by:         MAINT-BD-AGNI
+last-modified:  2014-05-23T09:02:39Z
+source:         APNIC
+
+% Information related to '182.252.67.0/24AS23923'
+
+route:          182.252.67.0/24
+origin:         AS23923
+descr:          Agni Systems Limited
+                Navana Tower
+                11th Floor, Suite A
+                45 Gulshan Avenue
+mnt-by:         MAINT-BD-AGNI
+last-modified:  2024-01-03T14:06:37Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.48 (WHOIS-US2)
+
