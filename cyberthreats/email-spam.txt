@@ -1,0 +1,149 @@
+Whois IP 172.98.12.105
+Updated 19 hours ago
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2026, American Registry for Internet Numbers, Ltd.
+#
+
+
+
+# start
+
+NetRange:       172.98.12.0 - 172.98.15.255
+CIDR:           172.98.12.0/22
+NetName:        DIGITAL-DENYS
+NetHandle:      NET-172-98-12-0-1
+Parent:         NET172 (NET-172-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:       
+Organization:   D-Digital LLC (DL-793)
+RegDate:        2021-07-08
+Updated:        2023-12-14
+Comment:        FROM D-Digital LLC
+Ref:            https://rdap.arin.net/registry/ip/172.98.12.0
+
+
+OrgName:        D-Digital LLC
+OrgId:          DL-793
+Address:        530-B HARKLE ROAD STE 100
+City:           Santa Fe
+StateProv:      NM
+PostalCode:     87505
+Country:        US
+RegDate:        2021-05-17
+Updated:        2023-12-14
+Comment:        Hosting Company Registered
+Ref:            https://rdap.arin.net/registry/entity/DL-793
+
+
+OrgNOCHandle: CUIME2-ARIN
+OrgNOCName:   Cui, Mervyn 
+OrgNOCPhone:  +1-866-436-5573 
+OrgNOCEmail:  report-abuse+email@virmach.com
+OrgNOCRef:    https://rdap.arin.net/registry/entity/CUIME2-ARIN
+
+OrgRoutingHandle: CUIME2-ARIN
+OrgRoutingName:   Cui, Mervyn 
+OrgRoutingPhone:  +1-866-436-5573 
+OrgRoutingEmail:  report-abuse+email@virmach.com
+OrgRoutingRef:    https://rdap.arin.net/registry/entity/CUIME2-ARIN
+
+OrgDNSHandle: CUIME2-ARIN
+OrgDNSName:   Cui, Mervyn 
+OrgDNSPhone:  +1-866-436-5573 
+OrgDNSEmail:  report-abuse+email@virmach.com
+OrgDNSRef:    https://rdap.arin.net/registry/entity/CUIME2-ARIN
+
+OrgTechHandle: CUIME2-ARIN
+OrgTechName:   Cui, Mervyn 
+OrgTechPhone:  +1-866-436-5573 
+OrgTechEmail:  report-abuse+email@virmach.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/CUIME2-ARIN
+
+OrgAbuseHandle: CUIME2-ARIN
+OrgAbuseName:   Cui, Mervyn 
+OrgAbusePhone:  +1-866-436-5573 
+OrgAbuseEmail:  report-abuse+email@virmach.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/CUIME2-ARIN
+
+RAbuseHandle: ABUSE8691-ARIN
+RAbuseName:   Abuse, Virmach 
+RAbusePhone:  +1-234-567-8951 
+RAbuseEmail:  report-abuse+email@virmach.com
+RAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE8691-ARIN
+
+RAbuseHandle: ABUSE8437-ARIN
+RAbuseName:   Abuse
+RAbusePhone:  +1-800-877-2176 
+RAbuseEmail:  report-abuse+email@virmach.com
+RAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE8437-ARIN
+
+# end
+
+
+# start
+
+NetRange:       172.98.12.0 - 172.98.12.255
+CIDR:           172.98.12.0/24
+NetName:        SERVERICA
+NetHandle:      NET-172-98-12-0-2
+Parent:         DIGITAL-DENYS (NET-172-98-12-0-1)
+NetType:        Reassigned
+OriginAS:       
+Organization:   Rica Web Services (RWS-30)
+RegDate:        2022-10-03
+Updated:        2023-12-14
+Ref:            https://rdap.arin.net/registry/ip/172.98.12.0
+
+
+OrgName:        Rica Web Services
+OrgId:          RWS-30
+Address:        350 RUE DE LOUVAIN O 
+Address:        Suite 203C
+City:           MONTREAL
+StateProv:      QC
+PostalCode:     H2N 2E8
+Country:        CA
+RegDate:        2012-11-01
+Updated:        2024-11-25
+Comment:        http://servarica.com
+Ref:            https://rdap.arin.net/registry/entity/RWS-30
+
+
+OrgAbuseHandle: AHMED50-ARIN
+OrgAbuseName:   Ahmed, Hani 
+OrgAbusePhone:  +1-514-800-5409 
+OrgAbuseEmail:  email@servarica.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/AHMED50-ARIN
+
+OrgTechHandle: AHMED50-ARIN
+OrgTechName:   Ahmed, Hani 
+OrgTechPhone:  +1-514-800-5409 
+OrgTechEmail:  email@servarica.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/AHMED50-ARIN
+
+OrgNOCHandle: AHMED50-ARIN
+OrgNOCName:   Ahmed, Hani 
+OrgNOCPhone:  +1-514-800-5409 
+OrgNOCEmail:  email@servarica.com
+OrgNOCRef:    https://rdap.arin.net/registry/entity/AHMED50-ARIN
+
+# end
+
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2026, American Registry for Internet Numbers, Ltd.
+#
+
