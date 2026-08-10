@@ -686,3 +686,61 @@ source:         RIPE
 
 % This query was served by the RIPE Database Query Service version 1.123 (DEXTER)
 
+Whois IP 88.116.186.154
+Updated 1 second ago
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '88.116.186.152 - 88.116.186.159'
+
+% Abuse contact for '88.116.186.152 - 88.116.186.159' is 'email@a1.at'
+
+inetnum:        88.116.186.152 - 88.116.186.159
+netname:        A1TA-CUSTOMER-AT
+descr:          A1 Telekom Austria AG - Business Customer
+country:        AT
+admin-c:        HMH25-RIPE
+tech-c:         HMH25-RIPE
+status:         ASSIGNED PA
+mnt-by:         AS8447-MNT
+mnt-lower:      AS8447-MNT
+created:        2018-06-18T10:16:02Z
+last-modified:  2022-08-29T08:08:10Z
+source:         RIPE
+
+role:           Host Master Highway
+address:        A1 Telekom Austria AG
+address:        Arsenal Objekt 24
+address:        1030 Vienna
+address:        Austria
+phone:          +43 50 664 8 664 100
+fax-no:         +43 50 664 8 664 101
+abuse-mailbox:  email@a1.at
+remarks:        for database maintenance please contact
+remarks:        < hostmaster @ aon.at >
+admin-c:        AJ2061-RIPE
+tech-c:         AJ2061-RIPE
+nic-hdl:        HMH25-RIPE
+mnt-by:         AS8447-MNT
+created:        2002-05-31T10:41:49Z
+last-modified:  2026-01-26T08:40:49Z
+source:         RIPE # Filtered
+
+% Information related to '88.116.0.0/15AS8447'
+
+route:          88.116.0.0/15
+descr:          HIGHWAY194
+origin:         AS8447
+mnt-by:         AS8447-MNT
+created:        2005-09-16T20:47:52Z
+last-modified:  2018-06-26T13:19:28Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.123 (DEXTER)
+
