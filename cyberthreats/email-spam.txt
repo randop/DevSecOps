@@ -744,3 +744,62 @@ source:         RIPE # Filtered
 
 % This query was served by the RIPE Database Query Service version 1.123 (DEXTER)
 
+Whois IP 41.230.8.190
+Updated 1 second ago
+% This is the AfriNIC Whois server.
+% The AFRINIC whois database is subject to  the following terms of Use. See https://afrinic.net/whois/terms
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '41.230.0.0 - 41.230.127.255'
+
+% No abuse contact registered for 41.230.0.0 - 41.230.127.255
+
+inetnum:        41.230.0.0 - 41.230.127.255
+netname:        TOPNET-14
+descr:          organisation : Topnet
+descr:          contact name: Ahmed Kooli
+descr:          phone: +216 71 780 900
+descr:          e-mail: email@topnet.tn
+descr:          website: http://topnet.tn
+country:        TN
+org:            ORG-ATIA2-AFRINIC
+admin-c:        AK34-AFRINIC
+tech-c:         AK34-AFRINIC
+status:         SUB-ALLOCATED PA
+mnt-by:         AFRINIC-HM-MNT
+mnt-lower:      ATI-MNT
+mnt-domains:    ATI-MNT
+source:         AFRINIC # Filtered
+parent:         41.224.0.0 - 41.231.255.255
+
+organisation:   ORG-ATIA2-AFRINIC
+org-name:       ATI - Agence Tunisienne Internet
+org-type:       LIR
+country:        TN
+address:        13, rue Jughurta, Belvedere
+address:        Tunis 1002
+phone:          tel:+216-71-846-100
+phone:          tel:+216-70-147-700
+phone:          tel:+216-71-843-843
+phone:          tel:+216-71-843-843
+admin-c:        AH74-AFRINIC
+tech-c:         AA239-AFRINIC
+tech-c:         SM95-AFRINIC
+tech-c:         AH74-AFRINIC
+mnt-ref:        AFRINIC-HM-MNT
+mnt-ref:        ATI-MNT
+mnt-by:         AFRINIC-HM-MNT
+remarks:        data has been transferred from RIPE Whois Database 20050221
+source:         AFRINIC # Filtered
+
+person:         Ahmed Kooli
+address:        Centre Urbain Nord
+address:        1073 Tunis
+address:        TN
+phone:          tel:+216-71-780-900
+nic-hdl:        AK34-AFRINIC
+mnt-by:         GENERATED-4YNEP8TTA1VHG1TEIFKF5ZSZ41FGKHTS-MNT
+source:         AFRINIC # Filtered
+
