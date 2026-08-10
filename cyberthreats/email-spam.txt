@@ -456,3 +456,67 @@ changed:     20251117
 % Types of queries are: POCs, ownerid, CIDR blocks, IP
 % and AS numbers.
 
+Whois IP 113.160.154.191
+Updated 4 days ago
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to '113.160.0.0 - 113.191.255.255'
+
+% Abuse contact for '113.160.0.0 - 113.191.255.255' is 'email@vnnic.vn'
+
+inetnum:        113.160.0.0 - 113.191.255.255
+netname:        VNPT-VN
+descr:          Vietnam Posts and Telecommunications Group
+descr:          No 57, Huynh Thuc Khang Street, Lang Ha ward, Dong Da district, Ha Noi City
+country:        VN
+admin-c:        PTH13-AP
+tech-c:         PTH13-AP
+remarks:        for admin contact mail to Nguyen Xuan Cuong NXC1-AP
+remarks:        for Tech contact mail to Nguyen Hien Khanh KNH1-AP
+status:         ALLOCATED PORTABLE
+mnt-by:         MAINT-VN-VNNIC
+mnt-lower:      MAINT-VN-VNPT
+mnt-routes:     MAINT-VN-VNPT
+last-modified:  2018-01-25T03:55:17Z
+mnt-irt:        IRT-VNNIC-AP
+source:         APNIC
+
+irt:            IRT-VNNIC-AP
+address:        Ha Noi, VietNam
+phone:          +84-24-35564944
+fax-no:         +84-24-37821462
+e-mail:         email@vnnic.vn
+abuse-mailbox:  email@vnnic.vn
+admin-c:        NTTT1-AP
+tech-c:         NTTT1-AP
+auth:           # Filtered
+mnt-by:         MAINT-VN-VNNIC
+last-modified:  2026-04-21T02:07:47Z
+source:         APNIC
+
+person:         Pham Tien Huy
+address:        VNPT-VN
+country:        VN
+phone:          +84-24-37741604
+e-mail:         email@vnpt.vn
+nic-hdl:        PTH13-AP
+mnt-by:         MAINT-VN-VNPT
+last-modified:  2017-11-19T07:06:20Z
+source:         APNIC
+
+% Information related to '113.160.128.0/19AS45899'
+
+route:          113.160.128.0/19
+descr:          VietNam Post and Telecom Corporation (VNPT)
+descr:          VNPT-AS-AP
+country:        VN
+origin:         AS45899
+remarks:        mailto: email@vnn.vn
+notify:         email@vnnic.net.vn
+mnt-by:         MAINT-VN-VNPT
+last-modified:  2010-08-10T08:20:02Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.48 (WHOIS-US2)
+
