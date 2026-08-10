@@ -234,3 +234,225 @@ source:         APNIC
 
 % This query was served by the APNIC Whois Service version 1.88.48 (WHOIS-US2)
 
+Whois IP 200.123.9.169
+Updated 2 days ago
+ 
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+
+% LACNIC resource: whois.lacnic.net
+
+
+% Copyright LACNIC lacnic.net
+%  The data below is provided for information purposes
+%  and to assist persons in obtaining information about or
+%  related to AS and IP numbers registrations
+%  By submitting a whois query, you agree to use this data
+%  only for lawful purposes.
+%  2026-08-07 12:06:24 (-03 -03:00)
+
+inetnum:     200.123.0.0/19
+status:      allocated
+aut-num:     N/A
+owner:       GTD PERÚ S.A
+ownerid:     PE-DWSA1-LACNIC
+responsible: Paul Mejia
+address:     Av. La Encalada, 1257, piso 14, Santiago de Surco
+address:     15023 - Lima - Lima
+country:     PE
+phone:       +51  17431950 [340]
+owner-c:     PAM145
+tech-c:      PAM145
+abuse-c:     PAM145
+inetrev:     200.123.0.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+inetrev:     200.123.1.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260807 AA
+nslastaa:    20260807
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260807 AA
+nslastaa:    20260807
+inetrev:     200.123.4.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+inetrev:     200.123.9.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+inetrev:     200.123.10.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+inetrev:     200.123.16.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260805 AA
+nslastaa:    20260805
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260805 AA
+nslastaa:    20260805
+inetrev:     200.123.12.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+inetrev:     200.123.13.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+inetrev:     200.123.14.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260807 AA
+nslastaa:    20260807
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260807 AA
+nslastaa:    20260807
+inetrev:     200.123.6.0/23
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260804 AA
+nslastaa:    20260804
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260804 AA
+nslastaa:    20260804
+inetrev:     200.123.25.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260805 AA
+nslastaa:    20260805
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260805 AA
+nslastaa:    20260805
+inetrev:     200.123.28.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260804 AA
+nslastaa:    20260804
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260804 AA
+nslastaa:    20260804
+inetrev:     200.123.5.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+inetrev:     200.123.24.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260803 AA
+nslastaa:    20260803
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260803 AA
+nslastaa:    20260803
+inetrev:     200.123.11.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260807 AA
+nslastaa:    20260807
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260807 AA
+nslastaa:    20260807
+inetrev:     200.123.15.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260805 AA
+nslastaa:    20260805
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260805 AA
+nslastaa:    20260805
+inetrev:     200.123.18.0/23
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260807 AA
+nslastaa:    20260807
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260807 AA
+nslastaa:    20260807
+inetrev:     200.123.2.0/23
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260805 AA
+nslastaa:    20260805
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260805 AA
+nslastaa:    20260805
+inetrev:     200.123.17.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260807 AA
+nslastaa:    20260807
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260807 AA
+nslastaa:    20260807
+inetrev:     200.123.20.0/22
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260803 AA
+nslastaa:    20260803
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260803 AA
+nslastaa:    20260803
+inetrev:     200.123.26.0/23
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+inetrev:     200.123.29.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+inetrev:     200.123.30.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260807 AA
+nslastaa:    20260807
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260807 AA
+nslastaa:    20260807
+inetrev:     200.123.8.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260804 AA
+nslastaa:    20260804
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260804 AA
+nslastaa:    20260804
+inetrev:     200.123.31.0/24
+nserver:     NS1.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+nserver:     NS3.DIGITALWAY.COM.PE
+nsstat:      20260806 AA
+nslastaa:    20260806
+created:     20040112
+changed:     20220713
+
+nic-hdl:     PAM145
+person:      Paul Mejia
+e-mail:      email@grupogtd.com
+address:     Enrique ViIllanueva, 105, -
+address:     15039 - Lima - Lima
+country:     PE
+phone:       +51  17431950 [340]
+created:     20190723
+changed:     20251117
+
+% whois.lacnic.net accepts only direct match queries.
+% Types of queries are: POCs, ownerid, CIDR blocks, IP
+% and AS numbers.
+
