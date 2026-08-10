@@ -520,3 +520,77 @@ source:         APNIC
 
 % This query was served by the APNIC Whois Service version 1.88.48 (WHOIS-US2)
 
+Whois IP 78.130.245.134
+Updated 1 second ago
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '78.130.128.0 - 78.130.255.255'
+
+% Abuse contact for '78.130.128.0 - 78.130.255.255' is 'email@cooolbox.bg'
+
+inetnum:        78.130.128.0 - 78.130.255.255
+netname:        BG-ITD-20070511
+country:        BG
+org:            ORG-INS1-RIPE
+admin-c:        INMC3-RIPE
+tech-c:         INMC3-RIPE
+status:         ALLOCATED PA
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ITD-MNT
+mnt-lower:      ITD-MNT
+mnt-routes:     ITD-MNT
+created:        2007-05-11T10:40:29Z
+last-modified:  2024-05-10T10:42:55Z
+source:         RIPE # Filtered
+
+organisation:   ORG-INS1-RIPE
+org-name:       Cooolbox AD
+country:        BG
+reg-nr:         115100705
+org-type:       LIR
+address:        1a, Arh. Kamen Petkov" Str.,
+address:        4000
+address:        Plovdiv
+address:        BULGARIA
+phone:          +35980045845
+admin-c:        INMC3-RIPE
+abuse-c:        INMC3-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ITD-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ITD-MNT
+created:        2004-04-17T11:01:11Z
+last-modified:  2026-05-13T07:30:51Z
+source:         RIPE # Filtered
+
+role:           Cooolbox NMC
+abuse-mailbox:  email@cooolbox.bg
+address:        1a, arh. Kamen Petkov str.
+mnt-by:         ITD-MNT
+admin-c:        VK5528-RIPE
+tech-c:         CBOX1-RIPE
+nic-hdl:        INMC3-RIPE
+created:        2007-03-29T11:22:16Z
+last-modified:  2024-03-01T09:07:48Z
+source:         RIPE # Filtered
+
+% Information related to '78.130.245.0/24AS9070'
+
+route:          78.130.245.0/24
+descr:          ITD Network - PA Address space
+origin:         AS9070
+mnt-by:         ITD-MNT
+created:        2007-05-11T11:50:10Z
+last-modified:  2007-05-11T11:50:10Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.123 (DEXTER)
+
+
