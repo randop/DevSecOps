@@ -803,3 +803,101 @@ nic-hdl:        AK34-AFRINIC
 mnt-by:         GENERATED-4YNEP8TTA1VHG1TEIFKF5ZSZ41FGKHTS-MNT
 source:         AFRINIC # Filtered
 
+108.29.85.229 was found in our database!
+This IP was reported 39 times. Confidence of Abuse is 39%:?
+
+39%
+ISP	Verizon Business
+Usage Type	Fixed Line ISP
+ASN	AS701
+Hostname(s)	pool-108-29-85-229.nycmny.fios.verizon.net
+Domain Name	verizon.com
+Country	🇺🇸 United States of America
+City	Lynbrook, New York
+
+Whois IP 108.29.85.229
+Updated 1 second ago
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2026, American Registry for Internet Numbers, Ltd.
+#
+
+
+NetRange:       108.0.0.0 - 108.57.255.255
+CIDR:           108.32.0.0/12, 108.0.0.0/11, 108.48.0.0/13, 108.56.0.0/15
+NetName:        VIS-BLOCK
+NetHandle:      NET-108-0-0-0-1
+Parent:         NET108 (NET-108-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:       
+Organization:   Verizon Business (MCICS)
+RegDate:        2009-06-05
+Updated:        2022-05-31
+Ref:            https://rdap.arin.net/registry/ip/108.0.0.0
+
+
+
+OrgName:        Verizon Business
+OrgId:          MCICS
+Address:        22001 Loudoun County Pkwy
+City:           Ashburn
+StateProv:      VA
+PostalCode:     20147
+Country:        US
+RegDate:        2006-05-30
+Updated:        2025-10-28
+Ref:            https://rdap.arin.net/registry/entity/MCICS
+
+
+OrgTechHandle: SWIPP9-ARIN
+OrgTechName:   SWIPPER
+OrgTechPhone:  +1-800-900-0241 
+OrgTechEmail:  email@verizon.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/SWIPP9-ARIN
+
+OrgAbuseHandle: ABUSE3-ARIN
+OrgAbuseName:   abuse
+OrgAbusePhone:  +1-800-900-0241 
+OrgAbuseEmail:  email@verizonbusiness.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE3-ARIN
+
+OrgDNSHandle: VZDNS1-ARIN
+OrgDNSName:   VZ-DNSADMIN
+OrgDNSPhone:  +1-800-900-0241 
+OrgDNSEmail:  email@verizon.com
+OrgDNSRef:    https://rdap.arin.net/registry/entity/VZDNS1-ARIN
+
+OrgTechHandle: VIS1-ARIN
+OrgTechName:   Verizon Internet Services
+OrgTechPhone:  +1-800-243-6994 
+OrgTechEmail:  email@verizon.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/VIS1-ARIN
+
+OrgAbuseHandle: ABUSE5603-ARIN
+OrgAbuseName:   Abuse
+OrgAbusePhone:  +1-800-900-0241 
+OrgAbuseEmail:  email@verizon.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE5603-ARIN
+
+RAbuseHandle: ABUSE5603-ARIN
+RAbuseName:   Abuse
+RAbusePhone:  +1-800-900-0241 
+RAbuseEmail:  email@verizon.com
+RAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE5603-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2026, American Registry for Internet Numbers, Ltd.
+#
+
