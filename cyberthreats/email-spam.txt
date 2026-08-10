@@ -593,4 +593,96 @@ source:         RIPE
 
 % This query was served by the RIPE Database Query Service version 1.123 (DEXTER)
 
+Whois IP 87.126.165.61
+Updated 1 second ago
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '87.126.0.0 - 87.126.255.255'
+
+% Abuse contact for '87.126.0.0 - 87.126.255.255' is 'email@vivacom.bg'
+
+inetnum:        87.126.0.0 - 87.126.255.255
+netname:        BG-BTC-20050905
+country:        BG
+org:            ORG-BTCP1-RIPE
+admin-c:        BTC3-RIPE
+tech-c:         BTC3-RIPE
+tech-c:         BTC3-RIPE
+status:         ALLOCATED PA
+remarks:        -------------------------------------------
+remarks:        For Hacking, Spamming or Security problems
+remarks:        send mail to email@vivacom.bg
+remarks:        ----------------------------------------------
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         BT95-ADM
+mnt-lower:      BTC-PROV-ADM
+mnt-lower:      BT95-ADM
+mnt-domains:    MNT-BTCNET
+mnt-domains:    BTC-PROV-ADM
+mnt-routes:     BTC-PROV-ADM
+mnt-routes:     BT95-ADM
+created:        2005-09-05T12:33:21Z
+last-modified:  2020-12-04T11:38:48Z
+source:         RIPE
+
+organisation:   ORG-BTCP1-RIPE
+org-name:       Vivacom Bulgaria EAD
+country:        BG
+reg-nr:         831642181
+org-type:       LIR
+address:        115I, Tsarigradsko shose Blvd.
+address:        1784
+address:        Sofia
+address:        BULGARIA
+phone:          +35929494600
+fax-no:         +35929331200
+admin-c:        BTC3-RIPE
+admin-c:        LG700-RIPE
+admin-c:        VB2225-RIPE
+admin-c:        NP2222-RIPE
+admin-c:        IR778-RIPE
+admin-c:        SS4127-RIPE
+admin-c:        PT1549-RIPE
+abuse-c:        BTC3-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        BT95-ADM
+mnt-ref:        MNT-GNET
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         BT95-ADM
+created:        2004-04-17T11:01:01Z
+last-modified:  2026-05-13T07:22:43Z
+source:         RIPE # Filtered
+
+role:           BTC IP ADDRESS SPACE administration
+address:        Bulgarian Telecommunications Company Plc.
+address:        115I, Tsarigradsko shose Blvd.
+address:        1784, Sofia
+address:        Bulgaria
+remarks:        www.vivacom.bg
+nic-hdl:        BTC3-RIPE
+remarks:        hostmaster role account
+mnt-by:         BT95-ADM
+created:        2001-11-30T11:48:48Z
+last-modified:  2024-08-30T13:28:41Z
+source:         RIPE # Filtered
+abuse-mailbox:  email@vivacom.bg
+
+% Information related to '87.126.165.0/24AS8866'
+
+route:          87.126.165.0/24
+descr:          BTC-BROADBAND-NET
+origin:         AS8866
+mnt-by:         BT95-ADM
+created:        2015-09-29T11:12:20Z
+last-modified:  2015-09-29T11:12:20Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.123 (DEXTER)
 
