@@ -49,3 +49,19 @@ Last updated on 2026-05-01T06:01:57.000Z
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
 | SA-2026-05-01-001.md | ![C](https://shieldcn.dev/badge/C-3-red) ![H](https://shieldcn.dev/badge/H-4-orange) ![M](https://shieldcn.dev/badge/M-5-yellow) ![L](https://shieldcn.dev/badge/L-7-green) ![I](https://shieldcn.dev/badge/I-0-blue) | 19    |
 | SA-2026-05-01-002.md | ![C](https://shieldcn.dev/badge/C-0-red) ![H](https://shieldcn.dev/badge/H-0-orange) ![M](https://shieldcn.dev/badge/M-7-yellow) ![L](https://shieldcn.dev/badge/L-1-green) ![I](https://shieldcn.dev/badge/I-0-blue) | 8     |
+
+---
+
+## Project: [htxpro](https://gitlab.com/randop/htxpro)
+Last updated on 2026-10-22T07:19:27.000Z
+
+| Total Severity |
+| -------------- |
+| ![Critical: 0](https://shieldcn.dev/badge/Critical-0-red) ![High: 1](https://shieldcn.dev/badge/High-1-orange) ![Medium: 7](https://shieldcn.dev/badge/Medium-7-yellow) ![Low: 9](https://shieldcn.dev/badge/Low-9-green) ![Informational: 1](https://shieldcn.dev/badge/Informational-1-blue) ![Total: 18](https://shieldcn.dev/badge/Total-18-lightgrey) |
+
+### Severity Breakdown
+
+| Report               | Severity                                                                                                                                                                                                                 | Total |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----- |
+| SA-2026-10-22-001.md | ![C](https://shieldcn.dev/badge/C-0-red) ![H](https://shieldcn.dev/badge/H-1-orange) ![M](https://shieldcn.dev/badge/M-6-yellow) ![L](https://shieldcn.dev/badge/L-7-green) ![I](https://shieldcn.dev/badge/I-1-blue) | 15    |
+| SA-2026-10-22-002.md | ![C](https://shieldcn.dev/badge/C-0-red) ![H](https://shieldcn.dev/badge/H-0-orange) ![M](https://shieldcn.dev/badge/M-1-yellow) ![L](https://shieldcn.dev/badge/L-2-green) ![I](https://shieldcn.dev/badge/I-0-blue) | 3     |
